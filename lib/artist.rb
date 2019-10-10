@@ -16,6 +16,9 @@ class Artist
     song.artist = slef 
   end
   
+  def add_song_by_name(new)
+    song.add_song_by_name
+  
     
   
 
