@@ -13,12 +13,13 @@ class Artist
   end
   
   def add_song(song)
-    song.artist = slef 
+    song.artist = self 
   end
   
   def add_song_by_name(name)
     song = Song.new(name)
-  @
+    song.artist = self
+  end
     
   
 
